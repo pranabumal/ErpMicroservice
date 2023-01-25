@@ -1,7 +1,0 @@
-com/pranab/inventory/InventoryApplication.class
-com/pranab/inventory/dto/InventoryResponse.class
-com/pranab/inventory/controller/InventoryController.class
-com/pranab/inventory/repository/InventoryRepository.class
-com/pranab/inventory/service/InventoryService.class
-com/pranab/inventory/model/Inventory.class
-com/pranab/inventory/dto/InventoryResponse$InventoryResponseBuilder.class
