@@ -1,7 +1,0 @@
-/home/ashraf/work-space/java/MicroserviceProjects/ErpMicroservice/product-service/src/main/java/com/pranab/product/ProductApplication.java
-/home/ashraf/work-space/java/MicroserviceProjects/ErpMicroservice/product-service/src/main/java/com/pranab/product/repository/ProductRepository.java
-/home/ashraf/work-space/java/MicroserviceProjects/ErpMicroservice/product-service/src/main/java/com/pranab/product/dto/ProductRequest.java
-/home/ashraf/work-space/java/MicroserviceProjects/ErpMicroservice/product-service/src/main/java/com/pranab/product/service/ProductService.java
-/home/ashraf/work-space/java/MicroserviceProjects/ErpMicroservice/product-service/src/main/java/com/pranab/product/model/Product.java
-/home/ashraf/work-space/java/MicroserviceProjects/ErpMicroservice/product-service/src/main/java/com/pranab/product/dto/ProductResponse.java
-/home/ashraf/work-space/java/MicroserviceProjects/ErpMicroservice/product-service/src/main/java/com/pranab/product/controller/ProductController.java
