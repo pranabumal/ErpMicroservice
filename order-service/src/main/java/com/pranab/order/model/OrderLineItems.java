@@ -1,6 +1,6 @@
 package com.pranab.order.model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.math.BigDecimal;
