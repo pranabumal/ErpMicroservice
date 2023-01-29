@@ -23,7 +23,7 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
 
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
     public void placeOrder(OrderRequest orderRequest){
         Order order = new Order();
         order.setOrderNumber(UUID.randomUUID().toString());
@@ -38,8 +38,8 @@ public class OrderService {
 
         //Call Inventory Service, and place order if product is in stock
 
-        InventoryResponse [] inventoryResponsesArray = webClient.get()
-                .uri("http://localhost:8082/api/inventory", uriBuilder -> uriBuilder.queryParam("code",codes).build() )
+        InventoryResponse [] inventoryResponsesArray = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory", uriBuilder -> uriBuilder.queryParam("code",codes).build() )
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class)
                 .block();
